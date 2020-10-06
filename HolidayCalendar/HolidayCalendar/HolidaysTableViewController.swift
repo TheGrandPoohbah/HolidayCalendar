@@ -29,7 +29,8 @@ class HolidaysTableViewController: UITableViewController {
             DispatchQueue.main.async {
                 self.tableView.reloadData()
                 //also add the number of items found to our title bar:
-//                self.navigationController?.title = "\(self.listOfHolidays.count) Holidays found "
+                // Was self.navigationController?.title
+//                self.navigationItem.title = "\(self.listOfHolidays.count) Holidays found "
             }
         }
     }
